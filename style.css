@@ -424,6 +424,7 @@ p {
 #about p {
   font-size: 1.8rem;
   text-align: center;
+  margin: 0 10%;
 }
 /* #about .col-left {
   width: 250px;

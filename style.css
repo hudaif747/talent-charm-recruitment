@@ -164,7 +164,7 @@ p {
   width: 100%;
   border-radius: 50%;
   border: 3px solid white;
-  animation: talent-charm_puls 1s ease infinite;
+  animation: talent-charm_puls 1s ease 3;
 }
 #header .talent-charm .bar {
   height: 2px;
@@ -473,7 +473,8 @@ p {
 }
 
 #contact .container {
-  min-height: 80vh;
+  min-height: auto;
+  padding: 40px;
 }
 
 #contact .contact {
@@ -485,6 +486,7 @@ p {
 #contact .contact-items {
   /* max-width: 400px; */
   width: 100%;
+  padding-bottom: 80px;
 }
 #contact .contact-item {
   width: 80%;

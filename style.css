@@ -291,7 +291,8 @@ p {
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(./img/img-1.png);
+  height: 40rem;
+  background-image: url("./images/office-space.jpg");
   background-size: cover;
   margin: 10px 5%;
   position: relative;
@@ -319,6 +320,7 @@ p {
   color: white;
   margin-bottom: 10px;
   text-transform: uppercase;
+  text-align: left;
 }
 #services .service-item p {
   color: white;
@@ -400,14 +402,30 @@ p {
 /* End howWeDo section */
 
 /* About Section */
+
+/* #howWeDo .howWeDo {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+} */
 #about .about {
-  flex-direction: column-reverse;
+  flex-direction: column;
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 100px 0;
 }
-#about .col-left {
+
+#about h1 {
+  margin-bottom: 50px;
+}
+
+#about p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+/* #about .col-left {
   width: 250px;
   height: 360px;
 }
@@ -444,10 +462,19 @@ p {
   width: 98%;
   border: 7px solid crimson;
   z-index: -1;
-}
+} */
 /* End About Section */
 
 /* contact Section */
+
+#contact h1 {
+  margin-bottom: 50px;
+}
+
+#contact .container {
+  min-height: 80vh;
+}
+
 #contact .contact {
   flex-direction: column;
   max-width: 1200px;

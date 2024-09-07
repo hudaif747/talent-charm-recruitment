@@ -200,7 +200,7 @@ p {
 
 /* Home Section */
 #home {
-  background-image: url("/images/shaking-hands.jpg");
+  background-image: url("images/shaking-hands.jpg");
   background-size: cover;
   background-position: top center;
   position: relative;
